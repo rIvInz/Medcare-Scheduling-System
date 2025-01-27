@@ -41,7 +41,7 @@ $res=mysqli_query($con, "SELECT a.*, b.*,c.* FROM patient a
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 					</button>
-					<a class="navbar-brand" href="patient.php"><img alt="Brand" src="assets/img/logo.png" height="40px"></a>
+					<a class="navbar-brand" href="patient.php"><img alt="Brand" src="assets/img/MC.png" height="40px"></a>
 				</div>
 				<!-- Collect the nav links, forms, and other content for toggling -->
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -55,7 +55,7 @@ $res=mysqli_query($con, "SELECT a.*, b.*,c.* FROM patient a
 					
 					<ul class="nav navbar-nav navbar-right">
 						<li class="dropdown">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> <?php echo $userRow['patientFirstName']; ?> <?php echo $userRow['patientLastName']; ?><b class="caret"></b></a>
+							
 							<ul class="dropdown-menu">
 								<li>
 									<a href="profile.php?patientId=<?php echo $userRow['icPatient']; ?>"><i class="fa fa-fw fa-user"></i> Profile</a>
@@ -90,12 +90,12 @@ echo "<table class='table table-hover'>";
 echo "<thead>";
 echo "<tr>";
 echo "<th>App Id</th>";
-echo "<th>patientIc </th>";
-echo "<th>patientLastName </th>";
-echo "<th>scheduleDay </th>";
-echo "<th>scheduleDate </th>";
-echo "<th>startTime </th>";
-echo "<th>endTime </th>";
+echo "<th>patient IC </th>";
+echo "<th>patient Last Name </th>";
+echo "<th>schedule Day </th>";
+echo "<th>schedule Date </th>";
+echo "<th>start Time </th>";
+echo "<th>end Time </th>";
 echo "<th>Print </th>";
 echo "</tr>";
 echo "</thead>";

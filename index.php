@@ -108,7 +108,7 @@ alert('User already registered. Please try again');
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.php"><img alt="Brand" src="assets/img/logo.png" height="40px"></a>
+                    <a class="navbar-brand" href="index.php"><img alt="Brand" src="assets/img/Logo.png" height="40px"></a>
                 </div>
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -375,10 +375,35 @@ alert('User already registered. Please try again');
             </div>
         </section>
         <!-- first section end -->
-
+        <section class="about-us-section" >
+            <div class="wrapper">
+            <div class="overlay"></div> 
+            <div class="about-us-overlay"></div>
+            <div class="about-us-content">
+            <h2>About Us</h2>
+            <p>
+                Dra. Jemima B. Rote, a dedicated physician with experience in family medicine, envisioned a patient-centered clinic that offers accessible and high-quality healthcare services. Over the years, MedCare Clinic expanded its services to include specialty consultations, preventive health programs, and telemedicine services to cater to the growing demands of patients.
+            </p>    
+            </div>
+        </div>
         
+            </section>
+              
         <!-- second section start -->
-        
+        <section id="mission-vision-section">
+            <div class="background-image"> </div>
+            <div class="mission-vision-container">
+                <div class="mission">
+                <h3>Mission</h3>
+                <p>To empower individuals and organizations to achieve their goals through innovative solutions.</p>
+                </div>
+                <div class="vision">
+                <h3>Vision</h3>
+                <p>To be a global leader in providing transformative services that enhance the quality of life.</p>
+                </div>
+            </div>
+            </section>
+            
         <!-- second section end -->
         <!-- third section start -->
         
@@ -387,9 +412,9 @@ alert('User already registered. Please try again');
         <section id="content-1-9" class="content-1-9 content-block">
             <div class="container">
                 <div class="underlined-title">
-                    <h1>Get in Touch</h1>
+                    <h1>Feel free to have an appointment today!</h1>
                     <hr>
-                    <h2>Feel free to drop us a line to contact us</h2>
+                    <h2>if you want to contact us here is our phone number: 09777803185</h2>
                 </div>
                 <div class="row">
                     <div class="col-md-4 col-sm-12 col-xs-12 pad25">
@@ -398,7 +423,7 @@ alert('User already registered. Please try again');
                         </div>
                         <div class="col-xs-10">
                             <h4>Branding</h4>
-                            <p>Retro chillwave YOLO four loko photo booth. Brooklyn kale chips, seitan hella 3 wolf moon slow-carb paleo.</p>
+                            <p>Our Branding is Med Care Clinic that is branded by Vasquez and Alejandro.</p>
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-12 col-xs-12 pad25">
@@ -407,7 +432,7 @@ alert('User already registered. Please try again');
                         </div>
                         <div class="col-xs-10">
                             <h4>Web Design</h4>
-                            <p>Retro chillwave YOLO four loko photo booth. Brooklyn kale chips, seitan hella 3 wolf moon slow-carb paleo.</p>
+                            <p>The Web Design is done using CSS, JS, Bootstrap and HTML. </p>
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-12 col-xs-12 pad25">
@@ -416,7 +441,7 @@ alert('User already registered. Please try again');
                         </div>
                         <div class="col-xs-10">
                             <h4>Social Marketing</h4>
-                            <p>Retro chillwave YOLO four loko photo booth. Brooklyn kale chips, seitan hella 3 wolf moon slow-carb paleo.</p>
+                            <p>Our Social Marketing is done using the Website itself and by the help of local clinics.</p>
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-12 col-xs-12 pad25">
@@ -425,7 +450,7 @@ alert('User already registered. Please try again');
                         </div>
                         <div class="col-xs-10">
                             <h4>SEO</h4>
-                            <p>Retro chillwave YOLO four loko photo booth. Brooklyn kale chips, seitan hella 3 wolf moon slow-carb paleo.</p>
+                            <p>Our SEO or Search Engine Optimization is User Friendly and can be use by all individual. </p>
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-12 col-xs-12 pad25">
@@ -434,7 +459,7 @@ alert('User already registered. Please try again');
                         </div>
                         <div class="col-xs-10">
                             <h4>Mobile Apps</h4>
-                            <p>Retro chillwave YOLO four loko photo booth. Brooklyn kale chips, seitan hella 3 wolf moon slow-carb paleo.</p>
+                            <p>Our Website is mobile friendly meaning it is responsive enough to be in mobile phones.</p>
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-12 col-xs-12 pad25">
@@ -443,7 +468,7 @@ alert('User already registered. Please try again');
                         </div>
                         <div class="col-xs-10">
                             <h4>Corporate Literture</h4>
-                            <p>Retro chillwave YOLO four loko photo booth. Brooklyn kale chips, seitan hella 3 wolf moon slow-carb paleo.</p>
+                            <p>The Med Care Clinic is done for our finals project in DBMS and done in the year 2023.</p>
                         </div>
                     </div>
                 </div>
@@ -455,13 +480,14 @@ alert('User already registered. Please try again');
         <!-- footer start -->
         <div class="copyright-bar bg-black">
             <div class="container">
-                <p class="pull-left small">© mohd mazlan - codedesign</p>
+                <p> Copyright: Alejandro & Vasquez </p>
                 <p class="pull-right small"><a href="adminlogin.php">admin</a></p>
             </div>
         </div>
         <!-- footer end -->
     </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  
     <script src="assets/js/jquery.js"></script>
     <script src="assets/js/date/bootstrap-datepicker.js"></script>
     <script src="assets/js/moment.js"></script>
@@ -469,7 +495,7 @@ alert('User already registered. Please try again');
     <script src="assets/js/collapse.js"></script>
      <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="assets/js/bootstrap.min.js"></script>
-    <script type="text/javascript">
+    <script type="text/javascript">   
     $('#myModal').on('shown.bs.modal', function () {
     $('#myInput').focus()
     })

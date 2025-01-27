@@ -157,7 +157,7 @@ legend{
 
 /*admins*/
 body{
-   background: url(../img/cover.jpg) no-repeat center center fixed; 
+   background: url(..assets/img/BG.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -300,5 +300,7 @@ html,body{
   -webkit-animation-name: fadeInUp;
   animation-name: fadeInUp;
 }
+
+
 
 /*admin end*/

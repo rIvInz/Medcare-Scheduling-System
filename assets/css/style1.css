@@ -1967,6 +1967,184 @@ fieldset[disabled] .form-control
     background-color: #ffffff;
 }
 
+
+.about-us-section {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  position: relative;
+  padding: 50px;
+  color: #ffffff; /* This might not be needed if you're styling the text within .about-us-content */
+  height: 400px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("Aboutus.png");
+  background-size: cover;
+  background-position: center center;
+  z-index: -1; /* Place the overlay behind the content */
+}
+
+.wrapper {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.about-us-content {
+  position: relative; 
+  right: -250px; 
+  max-width: 500px; 
+  margin-bottom: 90px; 
+  padding: 1px; 
+  background-color: #f8f8f800;
+  z-index: 1; /* Ensure content is on top */
+}
+
+.about-us-content h2 {
+  color: #000000; 
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.about-us-content p {
+  font-size: 16px;
+  color: #000000;
+  line-height: 1.6;
+}
+
+_______________________________________________
+
+.mission-vision-section {
+    position: relative;
+    height: 250px; /* Adjust as needed */
+    overflow: hidden;
+    grid-template-columns: repeat(12, 1fr); /* Adjust columns as needed */
+    grid-template-rows: 1fr;
+  }
+  
+  .background-image {
+    position: absolute;
+    top: 1060px;
+    left: auto;
+    width: 100%;
+    height: 100%;
+    background-image: url("blur.jpg"); /* Replace with your image URL */
+    background-size: cover;
+    transform: translateY(0);
+    z-index: -2; /* Send the background image to the back */
+    filter: blur(6px);
+    -webkit-filter: blur(3px);
+  }
+  
+  .mission-vision-section:hover .mission-vision-background {
+    transform: translateY(-10px); /* Parallax effect */
+  }
+  
+  .mission-vision-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 200px;
+    margin-bottom: 200px; /* Adjust for vertical positioning */
+    text-align: center;
+    
+    
+    
+  }
+  
+  .mission {
+    top: 100%; /* Increase the value to move downwards */
+    width: 25%;
+    padding: 30px;
+    background: linear-gradient(to bottom right, #f1e2e2, #cebcac);
+    border: 3px solid #c3c39e00;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    opacity: 0; 
+    will-change: opacity, transform;
+    animation: appear 0.8s ease-in forwards; /* Use 'forwards' to maintain final state */
+    transform: translateY(0);
+    position: relative; /* Use relative positioning to adjust position */
+    left: 420px; /* Adjust this value to control distance from left edge */
+    }
+  
+  .vision {
+    top: 100%; /* Increase the value to move downwards */
+    width: 25%;
+    padding: 30px;
+    background: linear-gradient(to bottom right, #f1e2e2, #cebcac);
+    border: 3px solid #c3c39e00;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    opacity: 0; 
+
+    will-change: opacity, transform;
+    animation: appear 0.8s ease-in forwards; /* Use 'forwards' to maintain final state */
+    transform: translateY(0);
+    position: relative; /* Use relative positioning to adjust position */
+    right: 420px; /* Adjust this value to control distance from left edge */
+    
+  }
+  
+
+  .view {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center; /* Center elements horizontally */
+  
+  }
+  .mission {
+    top: 100px;
+    left: 15%;
+    animation: slideInLeft 1.2s cubic-bezier(0.25, 0.8, 0.25, 1) forwards;
+    animation-timeline: view(); 
+    animation-range: 0% 30%; 
+  }
+  
+  .vision {
+    right: 15%;
+    top: 100px;
+    animation: slideInRight 1.2s cubic-bezier(0.25, 0.8, 0.25, 1) forwards;
+    animation-timeline: view(); 
+    animation-range: 0% 30%; 
+  }
+  
+  @keyframes slideInLeft {
+    0% {
+      opacity: 0;
+      transform: translateX(-20%) translateY(-50%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(10%) translateY(-50%);
+    }
+  }
+  
+  @keyframes slideInRight {
+    0% {
+      opacity: 0;
+      transform: translateX(20%) translateY(-50%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(-10%) translateY(-50%);
+    }
+  }
+
+  
 /*	PATTERN LIBRARY MEDIA QUERIES
 /*----------------------------------------------------*/
 
@@ -1990,7 +2168,4 @@ fieldset[disabled] .form-control
 
 @media only screen and (min-width : 1200px){
 	
-	
-	
 }
-

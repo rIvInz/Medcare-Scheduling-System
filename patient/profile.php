@@ -87,7 +87,7 @@ $widowed = "checked";
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 					</button>
-					<a class="navbar-brand" href="patient.php"><img alt="Brand" src="assets/img/logo.png" height="40px"></a>
+					<a class="navbar-brand" href="patient.php"><img alt="Brand" src="assets/img/MC.png" height="30px"></a>
 				</div>
 				<!-- Collect the nav links, forms, and other content for toggling -->
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -130,12 +130,12 @@ $widowed = "checked";
 						<div class="col-md-3 col-sm-3">
 							
 							<div class="user-wrapper">
-								<img src="assets/img/1.jpg" class="img-responsive" />
+								<img src="assets/img/pic.jpg" class="img-responsive" />
 								<div class="description">
 									<h4><?php echo $userRow['patientFirstName']; ?> <?php echo $userRow['patientLastName']; ?></h4>
 									<h5> <strong> Website Designer </strong></h5>
 									<p>
-										Pellentesque elementum dapibus convallis.
+										
 									</p>
 									<hr />
 									<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Update Profile</button>
@@ -157,29 +157,29 @@ $widowed = "checked";
 												
 												
 												<tr>
-													<td>PatientMaritialStatus</td>
+													<td>Patient Maritial Status</td>
 													<td><?php echo $userRow['patientMaritialStatus']; ?></td>
 												</tr>
 												<tr>
-													<td>PatientDOB</td>
+													<td>Patient DOB</td>
 													<td><?php echo $userRow['patientDOB']; ?></td>
 												</tr>
 												<tr>
-													<td>PatientGender</td>
+													<td>Patient Gender</td>
 													<td><?php echo $userRow['patientGender']; ?></td>
 												</tr>
 												<tr>
-													<td>PatientAddress</td>
+													<td>Patient Address</td>
 													<td><?php echo $userRow['patientAddress']; ?>
 													</td>
 												</tr>
 												<tr>
-													<td>PatientPhone</td>
+													<td>Patient Phone</td>
 													<td><?php echo $userRow['patientPhone']; ?>
 													</td>
 												</tr>
 												<tr>
-													<td>PatientEmail</td>
+													<td>Patient Email</td>
 													<td><?php echo $userRow['patientEmail']; ?>
 													</td>
 												</tr>

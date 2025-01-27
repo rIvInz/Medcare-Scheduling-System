@@ -57,3 +57,17 @@
   })
 
 }(jQuery);
+
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('loaded');
+      observer.unobserve(entry.target); 
+    }
+  });
+});
+
+const lazyLoadElements = document.querySelectorAll('.lazy-load');
+lazyLoadElements.forEach(element => {
+  observer.observe(element);
+});

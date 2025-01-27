@@ -54,7 +54,7 @@ $userRow=mysqli_fetch_array($res,MYSQLI_ASSOC);
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 					</button>
-					<a class="navbar-brand" href="patient.php"><img alt="Brand" src="assets/img/logo.png" height="40px"></a>
+					<a class="navbar-brand" href="patient.php"><img alt="Brand" src="assets/img/MC.png" height="30px"></a>
 				</div>
 				<!-- Collect the nav links, forms, and other content for toggling -->
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -110,7 +110,7 @@ $userRow=mysqli_fetch_array($res,MYSQLI_ASSOC);
 							}
 							?>
 							<!-- notification end -->
-							<h2>Hai <?php echo $userRow['patientFirstName']; ?> <?php echo $userRow['patientLastName']; ?>. Make appointment today!</h2>
+							<h2>Hi <?php echo $userRow['patientFirstName']; ?> <?php echo $userRow['patientLastName']; ?>. Make appointment today!</h2>
 							<div class="input-group" style="margin-bottom:10px;">
 								<div class="input-group-addon">
 									<i class="fa fa-calendar">
@@ -238,8 +238,8 @@ $userRow=mysqli_fetch_array($res,MYSQLI_ASSOC);
 		<!-- footer start -->
 		<div class="copyright-bar bg-black">
 			<div class="container">
-				<p class="pull-left small">© pgblocks - Pinegrow Blocks</p>
-				<p class="pull-right small">Made with <i class="fa fa-heart pomegranate"></i> on Planet Earth</p>
+				<p>Vasquez, Alejandro</p>
+				
 			</div>
 		</div>
 		<!-- footer end -->
